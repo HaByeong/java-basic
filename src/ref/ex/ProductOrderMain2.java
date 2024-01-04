@@ -9,7 +9,7 @@ public class ProductOrderMain2 {
         orders[2] = createOrder("콜라", 1500, 3);
 
         printOrders(orders);
-        getTotalAmount(orders)
+        getTotalAmount(orders);
     }
 
     static ProductOrder createOrder(String productName, int price, int quantity) {
