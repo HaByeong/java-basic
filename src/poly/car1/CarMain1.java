@@ -14,5 +14,10 @@ public class CarMain1 {
         driver.setCar(model3Car);
         driver.drive();
 
+        //차량 변경(model3 -> newCar)
+        NewCar newCar = new NewCar();
+        driver.setCar(newCar);
+        driver.drive();
+
     }
 }

@@ -1,7 +1,7 @@
 package poly.car1;
 
 public class Driver {
-    private Car car; //자동차라는 역할만 안다.
+    private Car car; //자동차라는 역할만 안c다.
 
     public void setCar(Car car) {
         System.out.println("자동차 설정: " + car);
